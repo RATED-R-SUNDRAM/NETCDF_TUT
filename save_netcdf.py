@@ -25,3 +25,5 @@ time = dt.datetime(2020,12,1)
 df=xrds[['TEMP', 'PSAL', 'PRES']].sel(TIME=time, method='nearest').to_dataframe().reset_index()
 df.head()
 # %%
+xrds.coords
+# %%
