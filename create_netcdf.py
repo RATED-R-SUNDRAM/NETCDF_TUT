@@ -27,4 +27,4 @@ check1=xrds[['temperature']].to_dataframe()
 check1
 # %%
 xrds.to_netcdf("test.nc")
-# %%
+#
